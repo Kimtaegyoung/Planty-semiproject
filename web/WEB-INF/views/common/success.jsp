@@ -19,7 +19,7 @@
 					movePath = "${ pageContext.servletContext.contextPath }/user/regist2";
 				case "insertUser" : 
 					successMessage = "회원 가입에 성공하셨습니다!";
-					movePath = "${ pageContext.servletContext.contextPath }";
+					movePath = "${ pageContext.servletContext.contextPath }/main/aboutus";
 					break;
 				case "updateUser" : 
 					successMessage = "회원 정보 변경에 성공하셨습니다!";
